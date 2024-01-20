@@ -1,23 +1,43 @@
 <!DOCTYPE html>
-<html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en">
 <head>
-<title>Welcome to nginx!</title>
-<style>
-html { color-scheme: light dark; }
-body { width: 35em; margin: 0 auto;
-font-family: Tahoma, Verdana, Arial, sans-serif; }
-</style>
+<title>Oimo.js - </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=11" />
+<meta http-equiv="Pragma" content="no-cache">
+
+<link rel="shortcut icon" href="./examples/assets/img/favicon.ico">
+<link rel="stylesheet" href="./examples/css/lab.css">
+
+<script src="./examples/js/libs/three.min.js"></script>
+<script src="./examples/js/libs/sea3d.min.js"></script>
+<script src="./examples/js/libs/codemirror.min.js"></script>
+<script src="./examples/js/libs/tween.min.js"></script>
+
+<script src="./examples/js/controls/OrbitControls.js"></script>
+<script src="./examples/js/shaders/ShaderShadow.js"></script>
+<script src="./examples/js/geometry/Tubular.js"></script>
+<script src="./examples/js/loaders/BVHLoader.js"></script>
+
+<script src="./examples/js/intro.js"></script>
+<script src="./examples/js/editor.js"></script>
+<script src="./examples/js/view.js"></script>
+<script src="./examples/js/user.js"></script>
+<script src="./examples/js/sound.js"></script>
+<script src="./examples/js/main.js"></script>
+
+<script src="./build/oimo.js"></script>
+
 </head>
+
 <body>
-<h1>Welcome to nginx!</h1>
-<p>If you see this page, the nginx web server is successfully installed and
-working. Further configuration is required.</p>
+<script>
 
-<p>For online documentation and support please refer to
-<a href="http://nginx.org/">nginx.org</a>.<br/>
-Commercial support is available at
-<a href="http://nginx.com/">nginx.com</a>.</p>
+intro.init();
+setTimeout( init, 1000 );
 
-<p><em>Thank you for using nginx.</em></p>
+</script>
 </body>
 </html>
